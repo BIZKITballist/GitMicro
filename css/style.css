@@ -3,6 +3,9 @@
 /* buttons */
 /* forms */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif:400,700&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap&subset=cyrillic");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -15411,9 +15414,28 @@ ACTIVE BACKGROUND COLOR*/
 
 /** /-- hard color theme -- **/
 /*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: 'FuturaLight';
+  src: url("../../fonts/FuturaLight Light.eot");
+  src: local("☺"), url("../../fonts/FuturaLight Light.woff") format("woff"), url("../../fonts/FuturaLight Light.ttf") format("truetype"), url("../../fonts/FuturaLight Light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /* Начало новости */
-.blockblock {
-  color: red;
-  width: 100px; }
+.fonts_Noto_Serif {
+  font-family: 'Noto Serif', serif;
+  font-weight: bold; }
+
+.fonts_Noto_Sans {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: normal; }
+
+.fonts_FuturaLight {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold; }
+
+.fonts_FuturaLight {
+  font-family: 'FuturaLight';
+  font-weight: normal; }
 
 /* Конец новости */

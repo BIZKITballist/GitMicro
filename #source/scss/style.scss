@@ -4,9 +4,22 @@
 
 /* Начало новости */
 
-.blockblock {
-	color: $primary-color;
-	width: 100px;
-}
+
+  .fonts_Noto_Serif {
+	font-family: 'Noto Serif', serif;
+	font-weight: bold;
+  }
+  .fonts_Noto_Sans {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: normal;
+  }
+  .fonts_FuturaLight {
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+  }
+  .fonts_FuturaLight {
+	font-family: 'FuturaLight';
+	font-weight: normal;
+  }
 
 /* Конец новости */
