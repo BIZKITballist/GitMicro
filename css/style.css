@@ -15422,21 +15422,114 @@ ACTIVE BACKGROUND COLOR*/
   font-style: normal; }
 
 /* Начало новости */
-.microNews {
+.main_news {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0 auto;
   max-width: 1000px;
   border: 5px solid grey; }
-  .microNews .fonts_Noto_Serif {
+  .main_news .header_news {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px; }
+  .main_news .fonts_Noto_Serif {
     font-family: 'Noto Serif', serif;
     font-weight: bold; }
-  .microNews .fonts_Noto_Sans {
+  .main_news .fonts_Noto_Sans {
     font-family: 'Noto Sans', sans-serif;
     font-weight: normal; }
-  .microNews .fonts_FuturaLight {
+  .main_news .fonts_FuturaLight {
     font-family: 'Playfair Display', serif;
     font-weight: bold; }
-  .microNews .fonts_FuturaLight {
+  .main_news .fonts_FuturaLight {
     font-family: 'FuturaLight';
     font-weight: normal; }
 
 /* Конец новости */
+.headerNews_logo {
+  max-width: 220px; }
+  .headerNews_logo img {
+    width: 100%;
+    height: auto; }
+
+.headerNews_contacts {
+  width: 100%;
+  max-width: 300px; }
+
+.headerNews_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline; }
+  .headerNews_text .headerNews_name {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Book Antiqua";
+    color: rgba(254, 205, 19, 0.85);
+    line-height: 1.4;
+    text-shadow: black 1.3px 1.3px 0.68px, white 0 0 0.98px; }
+  .headerNews_text .headerNews_phone {
+    font-size: 20px;
+    font-family: "Book Antiqua";
+    font-weight: 400;
+    color: black;
+    line-height: 1.4;
+    text-align: right; }
+  .headerNews_text .headerNews_mail {
+    font-size: 20px;
+    font-family: "Times New Roman";
+    color: black;
+    line-height: 1.4;
+    text-align: right; }
+
+.header_doubleline {
+  border-top: 10px solid #FFCD00;
+  border-bottom: 10px solid #DD9A00; }
+
+.container_news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: vh100;
+  background-color: #0d47a1; }
+
+.social {
+  color: #fff;
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }

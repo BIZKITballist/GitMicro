@@ -3,26 +3,43 @@
 
 
 /* Начало новости */
-
-.microNews {
+.main_news {
+	box-sizing: border-box;
 	margin: 0 auto;
 	max-width: 1000px;
 	border: 5px solid grey;
-  .fonts_Noto_Serif {
-	font-family: 'Noto Serif', serif;
-	font-weight: bold;
-  }
-  .fonts_Noto_Sans {
-	font-family: 'Noto Sans', sans-serif;
-	font-weight: normal;
-  }
-  .fonts_FuturaLight {
-	font-family: 'Playfair Display', serif;
-	font-weight: bold;
-  }
-  .fonts_FuturaLight {
-	font-family: 'FuturaLight';
-	font-weight: normal;
-  }
+
+	.header_news {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px;
+	}
+
+	.footer_news {
+
+	}
+
+		.fonts_Noto_Serif {
+			font-family: 'Noto Serif', serif;
+			font-weight: bold;
+		}
+		.fonts_Noto_Sans {
+			font-family: 'Noto Sans', sans-serif;
+			font-weight: normal;
+		}
+		.fonts_FuturaLight {
+			font-family: 'Playfair Display', serif;
+			font-weight: bold;
+		}
+		.fonts_FuturaLight {
+			font-family: 'FuturaLight';
+			font-weight: normal;
+		}
 }
 /* Конец новости */
+
+@import "header_news.scss";
+@import "footer_news.scss";
