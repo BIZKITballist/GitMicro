@@ -1,6 +1,6 @@
 
 
-.headerNews_logo{
+.header_news_logo{
     max-width: 220px;
     img{
         width: 100%;
@@ -8,12 +8,12 @@
     }
 }
 
-.headerNews_contacts {
+.header_news_contacts {
     width: 100%;
     max-width: 300px;
 }
 
-.headerNews_text {
+.header_news_text {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -22,7 +22,7 @@
 
 
 
-    .headerNews_name {
+    .header_news_name {
         font-size: 22px;
         font-weight: bold;
         font-family: "Book Antiqua";
@@ -31,7 +31,7 @@
         text-shadow: black 1.3px 1.3px 0.68px, white 0 0 0.98px;
     }
 
-    .headerNews_phone {
+    .header_news_phone {
         font-size: 20px;
         font-family: "Book Antiqua";
         font-weight: 400;
@@ -40,7 +40,7 @@
         text-align: right;
     }
 
-    .headerNews_mail {
+    .header_news_mail {
         font-size: 20px;
         font-family: "Times New Roman";
 
