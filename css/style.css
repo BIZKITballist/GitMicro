@@ -15422,20 +15422,21 @@ ACTIVE BACKGROUND COLOR*/
   font-style: normal; }
 
 /* Начало новости */
-.fonts_Noto_Serif {
-  font-family: 'Noto Serif', serif;
-  font-weight: bold; }
-
-.fonts_Noto_Sans {
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: normal; }
-
-.fonts_FuturaLight {
-  font-family: 'Playfair Display', serif;
-  font-weight: bold; }
-
-.fonts_FuturaLight {
-  font-family: 'FuturaLight';
-  font-weight: normal; }
+.microNews {
+  margin: 0 auto;
+  max-width: 1000px;
+  border: 5px solid grey; }
+  .microNews .fonts_Noto_Serif {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold; }
+  .microNews .fonts_Noto_Sans {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal; }
+  .microNews .fonts_FuturaLight {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold; }
+  .microNews .fonts_FuturaLight {
+    font-family: 'FuturaLight';
+    font-weight: normal; }
 
 /* Конец новости */
